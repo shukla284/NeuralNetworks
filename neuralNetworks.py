@@ -23,7 +23,6 @@ class NeuralNetworks(object):
       outputLayerFeed=np.dot(hiddenLayerActivation,self.outputLayerWeights)
       output=self.sigmoid(outputLayerFeed)
       return output
-   def backPropagation()
 neuralNetwork=NeuralNetworks()
 x=np.array([[3,5],[5,1],[10,2]])
 print (neuralNetwork.forwardPropagation(x))    
